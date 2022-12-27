@@ -1,0 +1,12 @@
+{
+  "baseUrl": "http://localhost:38080",
+  "testFiles": "**/*.spec.js",
+  "video": false,
+  "videoCompression": false,
+  "videoUploadOnPasses": false,
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "results/test-result-[hash].xml",
+    "toConsole": true
+  }
+}
